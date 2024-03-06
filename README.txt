@@ -1,3 +1,9 @@
+This is a Unity DEMO with a single scene, containing an agent simulation in a 2D procedurally generated level. 
+
+This DEMO implements:
+1) A constructive level generator which generates levels using cellular automata. 
+2) A collection of autonomous agents that inhabit the generated level. The agent AI use both steering behaviours and behaviour trees, utilising the https://github.com/sturdyspoon/unity-movement-ai and https://github.com/meniku/NPBehave libraries.
+
 Assets/Generator/CellularAutomataCaveGenerator.cs is a 2D cave level script using cellular automata, with the following principles:
 
 First, set related settings of the cave map, such as the size and seed of the map and the number of torches and gems.
